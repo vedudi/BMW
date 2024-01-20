@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW</title>
+    <link rel="shortcut icon" href="images/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css"
+        integrity="sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="BMW.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <!-- navbar alanı -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <img class="p-2" src="https://seeklogo.com/images/B/bmw-logo-248C3D90E6-seeklogo.com.png" width="40" height=""
+                alt="">
+            <a class="navbar-brand" href="#">BMW</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Anasayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Araçlar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Hakkımızda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Fiyat Listesi</a>
+                    </li>
+                </ul>
+                <div class="new mt-1 d-flex text-center gap-2">
+                    <h6><span class="badge bg-danger p-2 mt-2">Yeni</span></h6>
+                    <span class="navbar-text">
+                        Eşsiz Sürüş Keyfi
+                    </span>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar bitiş -->
+
+    <!-- karşılama alanı -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/bmw1.jpg" class="d-block w-100" alt="arac">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Yeni BMW M4 SERİSİ SEDAN</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- karşılama alanı bitiş -->
+
+    <!-- Araç Kartları -->
+    <div class="d-flex mt-5 justify-content-evenly">
+
+        <div class="card" style="width: 18rem;">
+            <img src="images/bmw2.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+                <h5 class="card-title">BMW 4 SERİSİ</h5>
+                <p class="card-text">Konforlu, sportif ve esnek: Yeni BMW 4 Serisi, uzun yolculuklar için de mükemmel
+                    bir yol arkadaşı.
+                </p>
+                <a href="#" class="btn btn-secondary">Go somewhere</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="images/bmw3.jpg" class="card-img-top" height="160" alt="...">
+            <div class="card-body text-center">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's
+                    content.</p>
+                <a href="#" class="btn btn-secondary">Go somewhere</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="images/bmw4.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's
+                    content.</p>
+                <a href="#" class="btn btn-secondary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+    <!-- Araç Kartları Bitiş-->
+
+    <!-- Yorumlar Alanı -->
+    <div class="d-flex justify-content-center align-center">
+        <div class="d-flex justify-content-center mt-5">
+            <div class="col-sm-6 mb-3 mb-sm-0">
+                <div class="card w-50">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Harika bir araba!</h5>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 d-flex justify-content-center">
+                <div class="card w-50">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Test sürüşü inanılmazdı!</h5>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Yorumlar Alanı Bitiş -->
+
+    <!-- Müşteri Hizmetleri  -->
+    <h3 class="text-center mt-4">Müşteri Hizmetleri</h3>
+    <div class="container overflow-hidden text-center bg-light rounded mt-5">
+        <div class="row gy-5 bg-secondary text-light">
+          <div class="col-6">
+            <div class="p-3"><i class="bi bi-telephone-fill p-2"></i>Dominic Toretto</div>
+          </div>
+          <div class="col-6">
+            <div class="p-3"><i class="bi bi-telephone-fill p-2"></i>Samet Kızılkaya</div>
+          </div>
+          <div class="col-6">
+            <div class="p-3"><i class="bi bi-telephone-fill p-2"></i>Cihan Bey</div>
+          </div>
+          <div class="col-6">
+            <div class="p-3"><i class="bi bi-telephone-fill p-2"></i>Elifnur Hanım</div>
+          </div>
+        </div>
+      </div>
+    <!-- Müşteri Hizmetleri Bitiş -->
+
+    <!-- Tablo -->
+    <h3 class="text-center mt-5">Araç Sıranız</h3>
+    <table class="table table-dark table-hover mt-5 w-100">
+       <tr>
+        <th>SIRA</th>
+        <th>İSİM</th>
+        <th>TELEFON</th>
+       </tr>
+       <tr>
+        <td>1</td>
+        <td>Eyüp</td>
+        <td>4354 54 54</td>
+       </tr>
+       <tr>
+        <td>2</td>
+        <td>Emirhan</td>
+        <td>324 54 54</td>
+       </tr>
+      </table>
+    <!-- Tablo Bitiş -->
+
+    <!-- Form Alanı -->
+    <div class="contact mx-auto d-flex flex-column text-center w-50 pt-4">
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Bize Ulaşın</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+            <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="Şifrenizi Giriniz">
+            <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Telefon Giriniz">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Konu</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button class="btn btn-success">Gönder</button>
+    </div>
+    <!-- Form Alanı Bitiş -->
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light p-3 mt-5">
+        <div class="container d-flex justify-content-around">
+            <p>&#169 2024. Tüm Hakları <a target="_blank" href="https://github.com/EyupSaltukB">Eyüp Saltuk</a> tarafından saklıdır. </p>
+            <a href="https://www.facebook.com/campaign/landing.php?&campaign_id=1603087355&extra_1=s%7Cc%7C513503241347%7Ce%7Cfacebook%27%7C&placement=&creative=513503241347&keyword=facebook%27&partner_id=googlesem&extra_2=campaignid%3D1603087355%26adgroupid%3D61834755758%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-362360550869%26loc_physical_ms%3D1012782%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=Cj0KCQiAwP6sBhDAARIsAPfK_wZc1S3jv1Gov9UiORH9nt6OZBLKfmUjiLzmvTqanjWE-jNJodibshUaAnp1EALw_wcB"><i class="bi bi-facebook"></i></a>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-linkedin"></i>
+        </div>
+    </footer>
+    <!-- Footer Bitiş -->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js" integrity="sha512-WW8/jxkELe2CAiE4LvQfwm1rajOS8PHasCCx+knHG0gBHt8EXxS6T6tJRTGuDQVnluuAvMxWF4j8SNFDKceLFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
